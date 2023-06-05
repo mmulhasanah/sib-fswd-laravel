@@ -11,13 +11,10 @@
                                         <tr>
                                             <th>#</th>
                                             <th>Name</th>
-                                            <th>Description</th>
-                                            <th>Features</th>
-                                            <th>Price</th>
-                                            <th>Keywords</th>
-                                            <th>url</th>
                                             <th>Category</th>
-                                            <th>Subcategory</th>
+                                            <th>Price</th>
+                                            <th>Sale_Price</th>
+                                            <th>Brand</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -26,13 +23,10 @@
                                         <tr>
                                             <td>{{ $loop->iteration }}</td>
                                             <td>{{ $product['name']}}</td>
-                                            <td>{{ $product['description']}}</td>
-                                            <td>{{ $product['features']}}</td>
-                                            <td>{{ $product['price']}}</td>
-                                            <td>{{ $product['keywords']}}</td>
-                                            <td>{{ $product['url']}}</td>
                                             <td>{{ $product['category']}}</td>
-                                            <td>{{ $product['subcategory']}}</td>
+                                            <td>{{ $product['price']}}</td>
+                                            <td>{{ $product['sale_price']}}</td>
+                                            <td>{{ $product['brand']}}</td>
                                             <td>
                                                 <a href="#" class="btn btn-warning">Edit</a>
                                                 <button class="btn btn-danger">Delete</button>

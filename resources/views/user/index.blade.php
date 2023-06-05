@@ -10,7 +10,7 @@
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Nim</th>
+                            <th>Role_id</th>
                             <th>Nama</th>
                             <th>Email</th>
                             <th>Phone</th>
@@ -22,7 +22,7 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>42219024</td>
+                            <td>23</td>
                             <td>Ummul Hasanah</td>
                             <td>hasanahummul2791@gmail.com</td>
                             <td>085340670901</td>
